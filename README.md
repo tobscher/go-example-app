@@ -17,6 +17,7 @@ $ go get github.com/gophergala/go_ne/kiss
 Install required plugins:
 
 ```
+$ go get github.com/gophergala/go_ne/plugins/plugin-apt-get
 $ go get github.com/gophergala/go_ne/plugins/plugin-git-clone
 $ go get github.com/gophergala/go_ne/plugins/plugin-whoami
 $ go get github.com/gophergala/go_ne/plugins/plugin-env
