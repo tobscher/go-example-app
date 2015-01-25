@@ -8,7 +8,7 @@ Start [vagrant](https://www.vagrantup.com/) box:
 $ vagrant up
 ```
 
-Download kiss:
+Download [kiss](https://github.com/gophergala/go_ne/):
 
 ```
 $ go get github.com/gophergala/go_ne/kiss
@@ -35,3 +35,5 @@ $ kiss -host=127.0.0.1 -username=vagrant -password=vagrant -port=2222 -task=depl
 ```
 
 NOTE: This will pull the latest changes from GitHub. Feel free to fork this repo and try updating the code.
+
+Visit the app at http://localhost:8080/
