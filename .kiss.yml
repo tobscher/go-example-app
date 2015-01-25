@@ -1,3 +1,10 @@
+servergroups:
+  web:
+    - host: localhost
+      username: "vagrant"
+      password: "vagrant"
+      port: 2222
+
 tasks:
   setup:
     steps:
